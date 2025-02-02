@@ -1,0 +1,46 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 01-08-2025
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="nav">
+        <div>
+            <a data-id="about" onclick={handleOnClickEvent}>About Me</a>
+        </div>
+        <div>
+            <a data-id="experience" onclick={handleOnClickEvent}>Experience</a>
+        </div>
+        <div>
+            <a data-id="project" onclick={handleOnClickEvent}>Projects</a>
+        </div>
+        <div>
+            <a data-id="skills" onclick={handleOnClickEvent}>Skills</a>
+        </div>
+        <div>
+            <a data-id="contact" onclick={handleOnClickEvent}>Contact Me</a>
+        </div>
+    </div>
+    <div class="togglebtn" onclick={changeNavigation}>
+        <img src={navicon}>
+    </div>
+    <div class="dropdown">
+        <div>
+            <a data-id="about" onclick={handleOnClickEvent}>About Me</a>
+        </div>
+        <div>
+            <a data-id="experience" onclick={handleOnClickEvent}>Experience</a>
+        </div>
+        <div>
+            <a data-id="project" onclick={handleOnClickEvent}>Projects</a>
+        </div>
+        <div>
+            <a data-id="skills" onclick={handleOnClickEvent}>Skills</a>
+        </div>
+        <div>
+            <a data-id="contact" onclick={handleOnClickEvent}>Contact Me</a>
+        </div>
+    </div>  
+</template>

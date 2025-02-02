@@ -1,0 +1,89 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F221B;
+    color: #D7D7D7;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.headline{
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #E6AF2E;
+}
+
+.subheading{
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.field, .button{
+    width: 100%;
+}
+.error-message{
+    color: red;
+}
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    color: #1F221B;
+    background: #D7D7D7;
+}
+.button input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    color: #1F221B;
+    background: #E6AF2E;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+}
+
+.button input[type=submit]:hover {
+    background: #D7D7D7;
+    color: #1F221B;
+    border: 2px solid #E6AF2E;
+}
+@media (max-width: 450px) {
+    .textfield{
+        padding: 10% 10% 0% 10%;
+        font-size: x-small;
+    }
+
+    .field{
+        font-size: x-small;
+        padding: 0 10% 0 10%;
+    }
+
+    .button{
+        font-size: x-small;
+        padding: 0 10% 10% 10%;
+    }
+
+    .headline{
+        font-size: larger;
+        padding: 10% 10% 0% 10%;
+    }
+
+    .subheading{
+        font-size: smaller;
+    }
+}
+
+@media(max-width: 950px ) and (min-width: 450px) {
+    .container{
+        padding: 10%;
+    }
+}

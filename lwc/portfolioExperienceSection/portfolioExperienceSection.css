@@ -1,0 +1,175 @@
+.container{
+    display: flex;
+    padding: 30px;
+    background-color: #1F221B;
+    min-height: 100vh;
+    flex-direction: column;
+    color: #D7D7D7;
+}
+
+.experience{
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #E6AF2E;
+    border-radius: 40px;
+}
+
+.designation{
+    font-size: x-large;
+}
+
+.company{
+    color: #0070AD;
+}
+
+.field{
+    color: #E6AF2E;
+}
+
+.details{
+    text-align: justify;
+    font-size: smaller;
+}
+.details ul {
+    list-style-type: disc; /* Ensures bullet points are shown */
+    padding-left: 20px; /* Adds some padding to the left */
+    margin-top: 10px;
+}
+
+.details li {
+    margin-bottom: 5px; /* Adds some space between list items */
+}
+.exp{
+    width: 60%;
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+}
+
+.img{
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.skills{
+    padding: 20px 0px 0px 10px;
+    font-size: small;
+    font-weight: 600;
+    color: #1F221B;
+}
+
+.skills ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.badge{
+    background-color: #E6AF2E;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+@media(max-width: 450px){
+    .container{
+        padding: 10px; 
+    }
+
+    .experience{
+        padding: 15px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img{
+        width: 20%;
+        margin: 0%;
+    }
+
+    .exp{
+        width: 100%;
+    }    
+
+    .skills{
+        width: 100%;
+        padding: 2px;
+        font-size: xx-small;
+        font-weight: 600;
+    }
+    
+    .skills ul li {
+        display: inline-block;
+        padding: 5px;
+        color: #1F221B;
+        margin: 0px;
+    }
+
+    .designation{
+        font-size: large;
+    }
+    
+    .tenure{
+        font-size: small;
+    }
+    .details{
+        font-size: x-small;
+    }
+}
+
+
+@media(max-width: 950px) and (min-width: 450px){
+    .container{
+        padding: 20px 
+    }
+
+    .experience{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .img{
+        width: 20%;
+        height: auto;
+        margin-left: 0%;
+    }
+
+    .exp{
+        width: 100%;
+    }    
+
+    .skills{
+        width: 100%;
+        padding: 20px 0px 0px 0px;
+        font-size: x-small;
+        font-weight: 600;
+    }
+    
+    .skills ul li {
+        display: inline-block;
+        padding: 5px;
+        color: #1F221B;
+        margin: 0px;
+    }
+
+    .details{
+        font-size: small;
+    }
+
+
+}
