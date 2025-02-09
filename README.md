@@ -26,3 +26,9 @@
 ### Contact Me Section : 
 
 ![PortfolioContactMeSection](https://github.com/PCgithub-ux/my-portfolio/blob/main/images/portfolioContactMe%26FooterSectuion.png)
+
+### Key Points:
+1. Site is made using salesfoece Experience Cloud, LWC's and APex.
+2. Apex Email Service is used in the contact me section.
+3. Used static resources for all the images present in the portfolio.
+4. Site is device and alignment responsive.
